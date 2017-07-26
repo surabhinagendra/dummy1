@@ -1,0 +1,165 @@
+<html>
+<body>
+<style>
+#FACE{
+  position:absolute;
+  background:red;
+  top:150px;
+  right:100px;
+  left:115px;
+  width:200px;
+  height:200px;
+  border-radius:20%;
+}
+#NOSE{
+   position:absolute;
+  background:white;
+  top:100px;
+  left:90px;
+  width:25px;
+  height:25px;
+  border-radius:40%;
+}
+#EYES1{
+   position:absolute;
+  background:white;
+  top:50px;
+  left:35px;
+  width:30px;
+  height:30px;
+  border-radius:40%;
+}  
+#EYES2{
+   position:absolute;
+  background:white;
+  top:50px;
+  right:35px;
+  width:30px;
+  height:30px;
+  border-radius:40%;
+}    
+#EARS1{
+   position:absolute;
+  background:red;
+  top:70px;
+  left:-27px;
+  width:30px;
+  height:60px;
+  border-radius:40%;
+}   
+#EARS2{
+ position:absolute;
+  background:red;
+  top:70px;
+  right:-29px;
+  width:30px;
+  height:60px;
+  border-radius:40%;
+}    
+  
+  
+#MOUTH{
+   position:absolute;
+  background:white;
+  top:150px;
+  left:55px;
+  width:100px;
+  height:15px;
+  border-radius:40%;
+} 
+#Neck{
+  position:absolute;
+  background:red;
+  top:350px;
+  left:190px;
+  width:50px;
+  height:50px;
+}
+#LEGS1{
+  position:absolute;
+  background:red;
+  top:700px;
+  left:150px;
+  width:40px;
+  height:150px;
+}
+#LEGS2{
+  position:absolute;
+  background:red;
+  top:700px;
+  left:250px;
+  width:40px;
+  height:150px;
+}
+#LEFTHAND{
+  position:absolute;
+  background:red;
+  top:440px;
+  left:50px;
+  width:45px;
+  height:220px;
+   border-radius:20%;
+
+}
+#RIGHTHAND{
+  position:absolute;
+  background:red;
+  top:440px;
+  left:335px;
+  width:45px;
+  height:220px;
+    border-radius:20%;
+
+}
+#SHOES1{
+   position:absolute;
+  background:blue;
+  top:850px;
+  left:120px;
+  width:85px;
+  height:60px;
+    border-radius:20%;
+}
+#SHOES2{
+   position:absolute;
+  background:blue;
+  top:850px;
+  left:230px;
+  width:85px;
+  height:60px;
+    border-radius:20%;
+}
+#CORE{
+  position:relative;
+  background:GREEN;
+  top:390;
+  left:90;
+  width:235;
+  height:300;
+   border-radius:10%;
+}
+</style>
+  <div id ="ROBOT">
+    <div id ="FACE">
+       <div id="NOSE"></div>
+       <div id  ="EYES1"></div>
+       <div id  ="EYES2"></div>
+       <div id ="EARS1"></div>
+       <div id ="EARS2"></div>
+       <div id ="MOUTH"></div>
+    </div>
+     <div id="Neck"></div>
+    <div id  ="BODY">
+      <div id="Neck"></div>
+      <div id ="LEGS1"></div>
+      <div id ="LEGS2"></div>
+      <div id  ="LEFTHAND"></div>
+      <div id  ="RIGHTHAND"></div>
+       <div id  ="SHOES1"></div>
+        <div id  ="SHOES2"></div>
+    </div>  
+    <div id ="CORE"></div>
+</body>
+</html>
+        
+    
